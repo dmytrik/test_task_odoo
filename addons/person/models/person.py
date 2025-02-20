@@ -2,8 +2,9 @@ from odoo import models, fields, api
 from dateutil.relativedelta import relativedelta
 from datetime import date
 
+
 class Person(models.Model):
-    _name = "person"
+    _name = "person.person"
     _description = "Person"
 
     first_name = fields.Char(required=True)
